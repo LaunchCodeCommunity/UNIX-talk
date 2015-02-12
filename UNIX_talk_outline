@@ -1,19 +1,35 @@
- I. Hello World
- A. English Major introduction
- i. Wikipedia definition: An operating system is software that manages computer hardware and software resources and provides common services for computer programs.
- ii. The OS is something that everyone is exposed to, but it remains mysterious.
- iii. List of things that are defined by the OS
- a) Input/Output
- b) Drivers
- c) Install/Update
- iv. "It's a UNIX system, I know this”
- a) http://www.tumblr.com/search/unix%20gif
- B. Short trip down memory lane
- i. The Sims
- a) The computer was like a suit: used, dirtied, taken to cleaners
- b) Sister erases system files, bricking the computer
- ii. XP netbook in college
- iii. CS50x and LaunchCode
+ UNIX: an informal introduction to the history, theory, and usage
+ ================================================================
+## What is this talk about? ##
+This talk is about UNIX. In this talk, I'm going to argue it's one of the most important 
+pieces of technology that has greatly shaped the 21^st century.
+ 
+## OK, but What is UNIX? ##
+(It helps you fight velociraptors)[http://www.tumblr.com/search/unix%20gif]
+
+UNIX is a family of operating systems that was first invented for mainframe 
+computers, starting in 1969.
+ 
+## OK, but what is an Operating System? ##
+Wikipedia definition: 
+*An operating system is software that manages computer hardware and software resources 
+and provides common services for computer programs.*
+
+List of things that are defined by the OS
+ * Input/Output
+ * Drivers
+ * Install/Update
+ * Security
+
+### Short Trip Down Memory Lane
+#### The Sims ####
+The computer was like a suit: used, dirtied, taken to cleaners
+
+Sister erases system files, bricking the computer
+
+#### XP netbook in college ####
+
+#### CS50x and LaunchCode ####
  C. Thesis
  i. The what, the history, and the why of OS
  ii. UNIX's influence and pervasiveness (INTERNET)
