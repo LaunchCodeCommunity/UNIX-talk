@@ -1,10 +1,11 @@
 # UNIX: an informal introduction to the history, theory, and usage
 
 Hello all, I'm sehqlr, and here is an outline of a lecture to beginning
-programmers and technologists that I think will help you in software
+programmers and technologists that I think will help them in software
 development and get a better understanding of your computer in general.
 
 ## What is this lecture about?
+
 This lecture is about UNIX, argueably one of the most important technologies
 from the 20th century; one that has greatly shaped the 21st. More specifically,
 it is a platform from which many other technologies have been created,
@@ -57,36 +58,26 @@ Why it matters to me
   1. OS just a combo of earlier innovations
   2. Written in assembly
 
-## UNIX
+## Brief UNIX history
 
 [UNIX licence plate](http://en.wikipedia.org/wiki/Live_Free_or_Die#mediaviewer/
 File:Actual_DEC_UNIX_License_Plate_DSC_0317.jpg)
+
 [Dennis Ritchie, Ken Thompson, and a PDP-11](http://cm.bell-labs.com/cm/cs/
 who/dmr/picture.html)
+
 [DMR's UNIX Notes](http://cm.bell-labs.com/cm/cs/who/dmr/notes.html)
 
-UNIX Written for PDP-7, then PDP-11, in assembly, 1969 - 1971
-UNIX reimplemented in C, 1971 – 1973
-C programming language
-* Imperative/procedural paradigm
-* Text-based source, compiled to many different assemblies
-* The language evolved with UNIX, made it portable
-
-c) Code could be shared far more easily
-D. BSD, Linux, and OS X
-i. Bell not allowed to get into computer business
-ii. UNIX cloning
-iii. BSD
-iv. Linux
-v. Darwin (OS X)
-E. UNIX today
-i. Desktops
-ii. Mobile/Embedded Devices
-iii. Servers/Containers
-iv. Supercomputers
-v. EVERYTHING
-IV. Conclusion
-
-
-B. Wrapping up
-C. Antithesis: OS will continue to evolve, and UNIX with it
+1. UNIX implemented in assembly, 1969 - 1971
+2. UNIX reimplemented in C, 1971 – 1973
+3. C programming language
+  1. Imperative/procedural paradigm
+  2. Text-based source, compiled to many different assemblies
+  3. The language evolved with UNIX, made it portable
+  4. Portable code shared more easily across different machines
+4. BSD, Linux, and OS X
+  1. Bell not allowed to get into computer business
+  2. UNIX 'clean room' cloning
+    1. BSD
+    2. Linux
+    3. Darwin (OS X)
