@@ -1,6 +1,6 @@
-# UNIX: an informal introduction to the history, theory, and usage
+# UNIX: an informal introduction to the theory, history, and usage
 
-Hello all, I'm sehqlr, and here is an outline of a lecture to beginning
+Hello all, sehqlr here, and here is an outline of a lecture to beginning
 programmers and technologists that I think will help them in software
 development and get a better understanding of your computer in general.
 
@@ -19,15 +19,22 @@ UNIX is a family of operating systems (OS) that began as one OS first invented
 for mainframe computers, starting in 1969.
 
 ## OK, but what is an Operating System?
-Wikipedia definition:
+
+Like all English majors, we begin with the Wikipedia definition:
 >An operating system is software that manages computer hardware and software
 >resources and provides common services for computer programs.
 
-List of pairs that are defined by the OS
-* Input/Output
-* Memory/Storage
-* Install/Update
-* Security/Administration
+Elements defined by the OS
+* Input
+* Output
+* Memory
+* Storage
+* Installing New Programs
+* Updating Old Ones
+* Security
+* Administration
+* Device Drivers
+* etc
 
 ## A story at my family's expense
 
@@ -38,30 +45,26 @@ Why it matters to me
 
 ## A Brief History
 
-### pre-UNIX OS
+#### pre-UNIX OS
 
-1. Early Hardware
-  1. Toggles and knobs, paper tape and punch cards (then magnets!)
-  2. [Colossus](//www.colossus-computer.com/images/030109-01-1.jpg)
-  3. [Altair 8800](//en.wikipedia.org/wiki/Altair_8800#mediaviewer/
-     File:Altair_8800_at_the_Computer_History_Museum,_cropped.jpg)
-2. Machine Code and Assembly
-  1. Binary calculators
-  2. Each type of chip had different instruction set
-  3. [Assembly as punch cards](//en.wikipedia.org/wiki/Punched_card
+1. Early Hardware:  toggles and knobs, paper tape and punch cards (and magnets!)
+  1. [Altair 8800](//en.wikipedia.org/wiki/Altair_8800
+     #mediaviewer/File:Altair_8800_at_the_Computer_History_Museum,_cropped.jpg)
+  2. [Colossus](https://en.wikipedia.org/wiki/Colossus_computer
+     #mediaviewer/File:Colossus.jpg)
+  3. [Paper tape](https://en.wikipedia.org/wiki/Punched_tape
+     #mediaviewer/File:Dg-papertapes.jpg)
+  4. [Punch cards](//en.wikipedia.org/wiki/Punched_card
      #mediaviewer/File:IBM1130CopyCard.agr.jpg)
-  4. Assembly is abstraction from binary
-  5. Many different dialects, for each instruction set
-3. Better tech leads to TTY and timesharing
-  1. [Teletypewriters (TTY)](//heritageinmaine.blogspot.com/2011/10/
+  5. [Teletypewriters (TTY)](//heritageinmaine.blogspot.com/2011/10/
      not-hearing-history-at-governor-baxter.html)
-  2. Multiple dumb terminals leads to time-sharing issue
-  3. Text-based interfaces (origin of “print”)
-4. Operating Systems are born
-  1. OS just a combo of earlier innovations
-  2. Written in assembly
+2. Resource management and automation leads to OS technology
+  1. Computers got faster and more important, so 'moniter' programs were written
+  2. Multiple programmers lead to time-sharing issues, especially after TTY
+  3. Machine -> Low Level -> High Level
+  4. OS just a combo of earlier innovations bundled together
 
-### UNIX and '\*nix'
+#### UNIX, C, and \*n)x systems
 
 [UNIX licence plate](//en.wikipedia.org/wiki/Live_Free_or_Die#mediaviewer/
 File:Actual_DEC_UNIX_License_Plate_DSC_0317.jpg)
@@ -71,16 +74,24 @@ who/dmr/picture.html)
 
 [DMR's UNIX Notes](//cm.bell-labs.com/cm/cs/who/dmr/notes.html)
 
-1. UNIX implemented in assembly, 1969 - 1971
-2. UNIX reimplemented in C, 1971 – 1973
-3. C programming language
+1. UNIX
+  1. Bell Labs R&D project
+  2. Implemented in assembly, 1969 - 1971
+  3. Reimplemented in C, 1971 – 1973
+2. C programming language
   1. Imperative/procedural paradigm
   2. Text-based source, compiled to many different assemblies
-  3. The language evolved with UNIX, made it portable
-  4. Portable code shared more easily across different machines
-4. BSD, Linux, and OS X
-  1. Bell not allowed to get into computer business
-  2. UNIX 'clean room' cloning
-    1. BSD
-    2. Linux
-    3. Darwin (OS X)
+  3. The language evolved with UNIX, made it portable and shareable
+3. BSD, Linux, and OS X (\*nixes)
+  1. [BSD](en.wikipedia.org/wiki/File:Bsd_daemon.jpg
+     #mediaviewer/File:Bsd_daemon.jpg)
+  2. [Darwin (OS X)](//en.wikipedia.org/wiki/File:Hexley_the_Platypus.svg
+     #mediaviewer/File:Hexley_the_Platypus.svg)
+  3. [Linux](//commons.wikimedia.org/wiki/File:Tux.svg
+     #mediaviewer/File:Tux.svg)
+  4. [GNU](//en.wikipedia.org/wiki/File:Heckert_GNU_white.svg
+     #mediaviewer/File:Heckert_GNU_white.svg)
+
+## Usage
+
+
