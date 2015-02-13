@@ -19,30 +19,34 @@ Wikipedia definition:
 >An operating system is software that manages computer hardware and software
 >resources and provides common services for computer programs.
 
-List of things that are defined by the OS
+List of pairs that are defined by the OS
 * Input/Output
-* Drivers
+* Memory/Storage
 * Install/Update
-* Security
+* Security/Administration
 
-Short Trip Down Memory Lane
-* The Sims
-* XP netbook in college
-* CS50x and LaunchCode
+## A story at my family's expense
 
-C. Thesis
-i. The what, the history, and the why of OS
-ii. UNIX's influence and pervasiveness (INTERNET)
-iii. Why it matters to me
+## Thesis
+The what, the history, and the why of OS
+UNIX's influence and pervasiveness (INTERNET)
+Why it matters to me
+
 ## Brief pre-UNIX history
+
 A. Early Hardware
 i. Toggles and knobs, paper tape and punch cards (then magnets!)
+
 [Colossus](http://www.colossus-computer.com/images/030109-01-1.jpg)
-[Altair 8800](http://en.wikipedia.org/wiki/Altair_8800#mediaviewer/File:Altair_8800_at_the_Computer_History_Museum,_cropped.jpg)
+[Altair 8800](http://en.wikipedia.org/wiki/Altair_8800#mediaviewer/
+File:Altair_8800_at_the_Computer_History_Museum,_cropped.jpg)
+
 B. Machine Code and Assembly
 i. Binary calculators
 b) Each type of chip had different instruction set
-[ Assembly as punch cards ](http://en.wikipedia.org/wiki/Punched_card#mediaviewer/File:IBM1130CopyCard.agr.jpg)
+[ Assembly as punch cards ](http://en.wikipedia.org/wiki/Punched_card
+#mediaviewer/File:IBM1130CopyCard.agr.jpg)
+
 b) Assembly is abstraction from binary
 c) Many different dialects, for each instruction set
 C. Pre-OS innovations
@@ -50,7 +54,10 @@ i. Faster computation
 ii. Signals to machine operators
 iii. Monitor programs
 D. TTY and timesharing
-[Teletypewriters (TTY)](http://heritageinmaine.blogspot.com/2011/10/not-hearing-history-at-governor-baxter.html)
+
+[Teletypewriters (TTY)](http://heritageinmaine.blogspot.com/2011/10/
+not-hearing-history-at-governor-baxter.html)
+
 ii. Multiple dumb terminals leads to time-sharing issue
 iii. Text-based interfaces (origin of “print”)
 III. UNIX
@@ -60,8 +67,10 @@ a) combo of pre-OS innovations
 b) bundled monitor programs together with other utilities
 ii. No assembly programs could be ported
 B. UNIX in assembly, 1969 – 1971
+
 [Dennis Ritchie, Ken Thompson, and a PDP-11](http://cm.bell-labs.com/cm/cs/who/dmr/picture.html)
 [DMR's UNIX Notes](http://cm.bell-labs.com/cm/cs/who/dmr/notes.html)
+
 iii. Written for PDP-7, then PDP-11, in assembly 
 iv. PDP-11's bought to run UNIX
 C. UNIX in C, 1971 – onwards
