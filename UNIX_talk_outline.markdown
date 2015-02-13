@@ -4,26 +4,26 @@ Hello all, sehqlr here, and here is an outline of a lecture to beginning
 programmers and technologists that I think will help them in software
 development and get a better understanding of your computer in general.
 
-## A long preamble to a tale
+## A Bit of Theory
 
 I'm going to begin by asking myself a few, easily answered questions, then
 conveniently answering them.
 
-#### What is this lecture about?
+1. What is this lecture about?
 
 This lecture is about UNIX, argueably one of the most important technologies
 from the 20th century; one that has greatly shaped the 21st. More specifically,
 it is a platform from which many other technologies have been created,
 and it has been the workbench of many programmers past and present.
 
-#### OK, but what is UNIX?
+2. OK, but what is UNIX?
 
 [Well, It helps you fight velociraptors](//www.tumblr.com/search/unix%20gif)
 
 UNIX is a family of operating systems (OS) that began as one OS first invented
 for mainframe computers, starting in 1969.
 
-#### OK, but what is an Operating System?
+3. OK, but what is an Operating System?
 
 Like all English majors, we begin with the Wikipedia definition:
 >An operating system is software that manages computer hardware and software
