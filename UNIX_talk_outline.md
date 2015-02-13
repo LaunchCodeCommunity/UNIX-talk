@@ -36,7 +36,9 @@ The what, the history, and the why of OS
 UNIX's influence and pervasiveness (INTERNET)
 Why it matters to me
 
-## Brief pre-UNIX OS history
+## A Brief History
+
+### pre-UNIX OS
 
 1. Early Hardware
   1. Toggles and knobs, paper tape and punch cards (then magnets!)
@@ -59,7 +61,7 @@ Why it matters to me
   1. OS just a combo of earlier innovations
   2. Written in assembly
 
-## Brief UNIX history
+### UNIX and '\*nix'
 
 [UNIX licence plate](//en.wikipedia.org/wiki/Live_Free_or_Die#mediaviewer/
 File:Actual_DEC_UNIX_License_Plate_DSC_0317.jpg)
