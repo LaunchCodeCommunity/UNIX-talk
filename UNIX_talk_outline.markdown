@@ -1,4 +1,4 @@
-# UNIX: an informal introduction to the theory, history, and usage
+# It's a UNIX system: an informal introduction to Unix history and usage
 
 Hello all, sehqlr here, and here is an outline of a lecture to beginning
 programmers and technologists that I think will help them in software
