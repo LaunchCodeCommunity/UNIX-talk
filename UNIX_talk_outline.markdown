@@ -18,7 +18,8 @@ and it has been the workbench of many programmers past and present.
 
 2. OK, but what is UNIX?
 
-[Well, It helps you fight velociraptors](//www.tumblr.com/search/unix%20gif)
+[Well, It helps you fight velociraptors](//randar.com
+/post/92394210860/its-a-unix-system-i-know-this-jurassic-park)
 
 UNIX is a family of operating systems (OS) that began as one OS first invented
 for mainframe computers, starting in 1969.
