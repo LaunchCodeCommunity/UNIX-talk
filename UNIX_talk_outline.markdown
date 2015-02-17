@@ -2,7 +2,7 @@
 
 Hello all, sehqlr here, and here is an outline of a lecture to beginning
 programmers and technologists that I think will help them in software
-development and get a better understanding of your computer in general.
+development and get a better understanding of computers in general.
 
 ## A Bit of Theory
 
@@ -100,17 +100,56 @@ Highlights from [DMR's UNIX Notes](//cm.bell-labs.com/cm/cs/who/dmr/notes.html)
 
 ## Usage: the almighty Terminal
 
+#### GUI versus TUI
+
+There exists a continuum of different user interfaces (UI)
+but for simplicity's sake, we'll use to categories: GUI and TUI
+
 1. Graphical User Interface (GUI)
   1. This is how most people use computers
   2. most of the OS details are hidden
-  3. Takes UI/UX design, and is easy to get wrong
-  4. Instructions rely on spacial descriptions or screenshots
+  3. Takes UI/UX design, and is easy to get wrong and follow fads
+  4. Instructions rely on spatial descriptions or screenshots
 2. Text-based User Interfaces
   1. Geared towards knowledgeable 'power users'
   2. Reveals many more details, sometimes badly
   3. No UI/UX design, unless you use ASCII art
   4. Instructions can be literally copy & pasted, even downloaded
 
-This is an area many people don't venture, but it gives you power
+Text-based tools are preferred for many use cases. GUI-based macros
+can be used sometimes, but they are often translated into text!
+[Selenium]
 
+#### Getting to know the terminal
 
+Cheat sheets and muscle memory, and tab completion and arrow keys!
+
+0. Command Prompt
+  0. CONTROL C
+  1. Learning the commands (echo, cat, and touch)
+    1. Using it... sometimes
+    2. --help (-h)
+    3. man (and info)
+    4. whereis (helps find docs on computer)
+  2. ENV variables
+    0. . and ..
+    1. $HOME
+    2. $?
+    3. $PATH
+1. Navigating
+  1. ls (LIST)
+  2. cd (CHANGE DIRECTORY)
+  3. tree (if you can install it)
+  4. find & grep
+  5. history
+    1. history
+    2. history | grep "search"
+    2. <C-R> "search"
+    3. !!
+3. I/O, redirection, and piping
+  1. STDIN, STDOUT, STDERR
+  2. Directing STDOUT/STDERR into file
+  3. Directing file into STDIN
+  4. Piping
+5. Peek at advanced stuff
+  1. .bashrc
