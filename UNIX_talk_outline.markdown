@@ -139,7 +139,7 @@ Cheat sheets and muscle memory, and tab completion and arrow keys!
 1. Navigating
   1. `ls` (LIST)
   2. `cd` (CHANGE DIRECTORY)
-  3. `tree` (if you can install it) or this one-liner
+  3. `tree` (if you can install it)
   4. `find`
   5. `grep`
   6. `history`
