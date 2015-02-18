@@ -9,14 +9,14 @@ development and get a better understanding of computers in general.
 I'm going to begin by asking myself a few, easily answered questions, then
 conveniently answering them.
 
-0. What is this lecture about?
+*What is this lecture about?*
 
 This lecture is about UNIX, argueably one of the most important technologies
 from the 20th century; one that has greatly shaped the 21st. More specifically,
 it is a platform from which many other technologies have been created,
 and it has been the workbench of many programmers past and present.
 
-1. OK, but what is UNIX?
+*OK, but what is UNIX?*
 
 [Well, It helps you fight velociraptors](//randar.com
 /post/92394210860/its-a-unix-system-i-know-this-jurassic-park)
@@ -24,7 +24,7 @@ and it has been the workbench of many programmers past and present.
 UNIX is a family of operating systems (OS) that began as one OS first invented
 for mainframe computers, starting in 1969.
 
-2. OK, but what is an Operating System?
+*OK, but what is an Operating System?*
 
 Like all English majors, we begin with the Wikipedia definition:
 >An operating system is software that manages computer hardware and software
@@ -45,9 +45,9 @@ Elements defined by the OS
 #### A story at my family's expense
 
 #### Thesis
-The what, the history, and the why of OS
-UNIX's influence and pervasiveness (INTERNET)
-Why it matters to me
+My hope is by the end of this, you'll have a taste of theory, history, and
+usage of your OS, of UNIX, and of the terminal, and how this knowledge could
+benefit you on your journey to a higher understanding of programming and CS.
 
 ## A Brief History
 
