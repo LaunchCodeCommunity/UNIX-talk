@@ -137,7 +137,9 @@ Cheat sheets and muscle memory, and tab completion and arrow keys!
   1. Piping
     0. `|`
     1. A different kind of redirect
-    2. It's use in chaining
+    2. Chaining commands together
+      0. Example from the `history` section
+      1. `find ~ -name UNIX_talk_outline.markdown | xargs grep -n "UNIX_talk"`
 4. A look at my `.bashrc`
 
 ## Questions
