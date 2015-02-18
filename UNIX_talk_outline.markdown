@@ -108,12 +108,12 @@ but for simplicity's sake, we'll use two categories: GUI and TUI
 0. Graphical User Interface (GUI)
   0. This is how most people use computers
   1. most of the OS details are hidden
-  2. Takes UI/UX design, and is easy to get wrong and follow fads
+  2. Takes UI design, and is easy to get wrong and follow fads
   3. Instructions rely on spatial descriptions or screenshots
 1. Text-based User Interfaces
   0. Geared towards knowledgeable 'power users'
   1. Reveals many more details, sometimes badly
-  2. No UI/UX design, unless you use ASCII art
+  2. No UI design, unless you use ASCII art
   3. Instructions can be literally copy & pasted, even downloaded
 
 Text-based tools are preferred for many use cases. GUI-based macros
