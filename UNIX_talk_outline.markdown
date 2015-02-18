@@ -6,29 +6,14 @@ development and get a better understanding of computers in general.
 
 ## A Bit of Theory
 
-I'm going to begin by asking myself a few, easily answered questions, then
-conveniently answering them.
-
-**What is this lecture about?**
-
-This lecture is about UNIX, argueably one of the most important technologies
-from the 20th century; one that has greatly shaped the 21st. More specifically,
-it is a platform from which many other technologies have been created,
-and it has been the workbench of many programmers past and present.
-
-**OK, but what is UNIX?**
-
-[Well, It helps you fight velociraptors](//randar.com
-/post/92394210860/its-a-unix-system-i-know-this-jurassic-park)
+Like all English majors, I'll begin with the Wikipedia definition:
+>An operating system is software that manages computer hardware and software
+>resources and provides common services for computer programs.
 
 UNIX is a family of operating systems (OS) that began as one OS first invented
 for mainframe computers, starting in 1969.
-
-**OK, but what is an Operating System?**
-
-Like all English majors, we begin with the Wikipedia definition:
->An operating system is software that manages computer hardware and software
->resources and provides common services for computer programs.
+It is a platform from which many other technologies have been created,
+and it has been the workbench of many programmers past and present.
 
 Elements defined by the OS
 * Input
@@ -40,14 +25,10 @@ Elements defined by the OS
 * Security
 * Administration
 * Device Drivers
-* etc
+* [And, it helps you fight velociraptors](//randar.com
+/post/92394210860/its-a-unix-system-i-know-this-jurassic-park)
 
-#### A story at my family's expense
-
-#### Thesis
-My hope is by the end of this, you'll have a taste of theory, history, and
-usage of your OS, of UNIX, and of the terminal, and how this knowledge could
-benefit you on your journey to a higher understanding of programming and CS.
+*[Here's where I tell a story at my family's expense]*
 
 ## A Brief History
 
@@ -149,12 +130,10 @@ Cheat sheets and muscle memory, and tab completion and arrow keys!
     3. `<C-R> "search"`
 2. I/O, redirection, and piping
   0. `STDIN`, `STDOUT`, `STDERR`
-  1. Directing STDOUT/STDERR into file
-    0. Write `>`
-    1. Append `>>`
-  2. Directing file into STDIN
     0. Read `<`
-  3. Piping
+    1. Write `>`
+    2. Append `>>`
+  1. Piping
     0. `|`
     1. It's use in chaining
 3. Peek at advanced stuff
