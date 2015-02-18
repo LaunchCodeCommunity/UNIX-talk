@@ -16,19 +16,17 @@ It is a platform from which many other technologies have been created,
 and it has been the workbench of many programmers past and present.
 
 Elements defined by the OS
-* Input
-* Output
 * Memory
 * Storage
 * Installing New Programs
-* Updating Old Ones
+* Updating Old Programs
 * Security
 * Administration
-* Device Drivers
+* Device Drivers for Input/Output (I/O)
 * [And, it helps you fight velociraptors](//randar.com
 /post/92394210860/its-a-unix-system-i-know-this-jurassic-park)
 
-*[Here's where I tell a story at my family's expense]*
+*Here's where I tell a story at my family's expense*
 
 ## A Brief History
 
@@ -95,10 +93,11 @@ but for simplicity's sake, we'll use two categories: GUI and TUI
   0. Geared towards knowledgeable 'power users'
   1. Reveals many more details, sometimes badly
   2. No UI design, unless you use ASCII art
-  3. Instructions can be literally copy & pasted, even downloaded
+  3. Instructions can be literally be copied & pasted, even downloaded
 
 Text-based tools are preferred for many use cases. GUI-based macros
 can be used sometimes, but they are often translated into text!
+
 [Selenium](//www.seleniumhq.org/)
 
 #### Getting to know the terminal
@@ -113,7 +112,7 @@ Cheat sheets and muscle memory, and tab completion and arrow keys!
     2. `man` (and `info`)
     3. `whereis` (helps find docs on computer sometimes)
   2. ENV variables
-    0. . and ..
+    0. `.` and `..`
     1. `$HOME` and `~`
     2. `$?`
     3. `$PATH`
@@ -127,14 +126,22 @@ Cheat sheets and muscle memory, and tab completion and arrow keys!
     0. `history`
     1. `!!`, `!n`, `!-n`
     2. `history | grep "search"`
-    3. `<C-R> "search"`
-2. I/O, redirection, and piping
+    3. `<Ctrl+R> "search"`
+2. Users, Groups, and Permissions (briefly)
+3. I/O, redirection, and piping
   0. `STDIN`, `STDOUT`, `STDERR`
+  1. Redirection
     0. Read `<`
     1. Write `>`
     2. Append `>>`
   1. Piping
     0. `|`
-    1. It's use in chaining
-3. Peek at advanced stuff
-  0. `.bashrc`
+    1. A different kind of redirect
+    2. It's use in chaining
+4. A look at my `.bashrc`
+
+## Questions
+
+This talk is still a work in progress, and I'm always open for suggestions
+and constructive criticism. I'm going to make this a full repository soon,
+so stay tuned!
