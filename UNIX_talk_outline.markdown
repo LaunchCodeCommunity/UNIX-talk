@@ -24,7 +24,7 @@ Elements defined by the OS
 * Administration
 * Device Drivers for Input/Output (I/O)
 * And, it helps you fight velociraptors
-![It's a UNIX system!](//randar.com
+![It's a UNIX system!](randar.com
 /post/92394210860/its-a-unix-system-i-know-this-jurassic-park)
 
 *Here's where I tell a story at my family's expense*
