@@ -62,10 +62,10 @@ Highlights from [DMR's UNIX Notes](http://cm.bell-labs.com/cm/cs/who/dmr/notes.h
   1. Text-based source, compiled to many different assemblies
   2. The language evolved with UNIX, made it portable and shareable
 2. \*nixes: BSD, Linux, and OS X
-  0. ![BSD](http://en.wikipedia.org/wiki/File:Bsd_daemon.jpg#mediaviewer/File:Bsd_daemon.jpg)
-  1. ![Darwin (OS X)](http://en.wikipedia.org/wiki/File:Hexley_the_Platypus.svg#mediaviewer/File:Hexley_the_Platypus.svg)
-  2. ![Linux](http://commons.wikimedia.org/wiki/File:Tux.svg#mediaviewer/File:Tux.svg)
-  3. ![GNU](http://en.wikipedia.org/wiki/File:Heckert_GNU_white.svg#mediaviewer/File:Heckert_GNU_white.svg)
+  0. ![BSD](http://en.wikipedia.org/wiki/File:Bsd_daemon.jpg)
+  1. ![Darwin (OS X)](http://en.wikipedia.org/wiki/File:Hexley_the_Platypus.svg)
+  2. ![Linux](http://commons.wikimedia.org/wiki/File:Tux.svg)
+  3. ![GNU](http://en.wikipedia.org/wiki/File:Heckert_GNU_white.svg)
 
 ## Usage: the almighty Terminal
 
