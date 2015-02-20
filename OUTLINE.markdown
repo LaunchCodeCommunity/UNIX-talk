@@ -128,6 +128,12 @@ Cheat sheets and muscle memory, and tab completion and arrow keys!
       0. Example from the `history` section
       1. `find ~ -name UNIX_talk_outline.markdown | xargs grep -n "UNIX_talk"`
 4. A look at my [`.bashrc`](https://github.com/sehqlr/dotfiles/blob/master/bashrc)
+  0. This is a "dotfile," or a configuration file normally hidden by the OS
+  1. RC in this case means "run commands," so configuration is scripted
+  2. There are different config files for bash, this just so happens to be
+     the preferred file on Debian/Ubuntu. Also look for .profile
+  3. The file's commands are run everytime you start up the program, unless
+     you specify not to
 
 ## Questions
 
