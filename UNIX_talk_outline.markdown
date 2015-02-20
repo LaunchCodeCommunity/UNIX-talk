@@ -95,10 +95,7 @@ but for simplicity's sake, we'll use two categories: GUI and TUI
   2. No UI design, unless you use ASCII art
   3. Instructions can be literally be copied & pasted, even downloaded
 
-Text-based tools are preferred for many use cases. GUI-based macros
-can be used sometimes, but they are often translated into text!
-
-[Selenium](//www.seleniumhq.org/)
+Many programming tools are built in a TUI due to these differences
 
 #### Getting to know the terminal
 
